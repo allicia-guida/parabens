@@ -1,0 +1,140 @@
+body {
+    background: #b1b1b173;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.596);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: #ff4081;
+    position: relative;
+    top: -20px;
+}
+
+.cake {
+  margin: 20px auto;
+  position: relative;
+  width: 120px;
+  height: 100px;
+  top: -20px;
+}
+
+.layer {
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.layer-topo {
+    width: 120px;
+    height: 11px;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 9px;
+}
+
+.cobertura {
+    width: 120px;
+    height: 55px;
+    border-radius: 8px;
+}
+
+.p-bolinho {
+position: relative;
+top: -40px;
+
+}
+
+.top { background: #252525; }
+.middle { background: #eee9bb; margin-top: -5px; }
+.bottom { background: #252525; margin-top: -5px; }
+
+.candles {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -10px;
+  gap: 10px;
+  position: relative;
+}
+
+.candle {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: #3f3f3fb9;
+    padding: 7px 5px;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 5px;
+}
+
+
+.candle::before {
+  content: "🔥";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 22px;
+}
+
+.confetti {
+  position: fixed;
+  top: -10px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: fall linear forwards;
+}
+
+.bolinha {
+  position: fixed;
+  top: -50px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; /* deixa redondinha */
+  object-fit: cover;  /* garante que a foto se encaixe bem */
+  animation: fall linear forwards;
+}
+
+.curintia {
+  position: fixed;
+  top: -50px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; /* deixa redondinha */
+  object-fit: cover;  /* garante que a foto se encaixe bem */
+  animation: fall linear forwards;
+}
+
+.botao {
+    border-radius: 9px;
+    position: relative;
+    top: 20px;
+    background-color: rgba(36, 38, 73, 0.233);
+    color: white;
+    border-color: transparent;
+    padding: 4px;
+    width: 225px;
+    font-size: 16px;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh) rotate(720deg);
+  }
+}
+
+
