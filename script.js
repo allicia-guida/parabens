@@ -14,7 +14,7 @@ function showConfetti() {
 function showBolinhas() {
   for (let i = 0; i < 20; i++) {
     let bolinha = document.createElement("img");
-    bolinha.src = "/img/gatinhoieu.jpg";
+    bolinha.src = "gatinhoieu.jpg";
     bolinha.className = "bolinha";
     bolinha.style.left = Math.random() * 100 + "vw";
     bolinha.style.animationDuration = (Math.random() * 3 + 3) + "s";
@@ -27,7 +27,7 @@ function showBolinhas() {
 function showCurintia() {
   for (let i = 0; i < 20; i++) {
     let curintia = document.createElement("img");
-    curintia.src = "/img/curintia.png";
+    curintia.src = "curintia.png";
     curintia.className = "curintia";
     curintia.style.left = Math.random() * 100 + "vw";
     curintia.style.animationDuration = (Math.random() * 3 + 3) + "s";
