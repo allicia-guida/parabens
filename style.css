@@ -211,9 +211,14 @@ top: -40px;
   }
 
   /* Confete e bolinhas menores */
-  .confetti, .bolinha {
+  .bolinha {
     width: 20px;
     height: 20px;
+  }
+
+  .confetti {
+    width: 10px;
+    height: 10px;
   }
 
   .gatinho {
