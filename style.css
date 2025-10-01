@@ -173,6 +173,11 @@ top: -40px;
     height: 90px;
   }
 
+  .cobertura {
+    width: 100px;
+    height: 45px;
+  }
+
   .layer-topo {
     width: 100px;
     height: 9px;
