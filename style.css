@@ -119,6 +119,16 @@ top: -40px;
   animation: fall linear forwards;
 }
 
+.gatinho {
+  position: fixed;
+  top: -50px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; /* deixa redondinha */
+  object-fit: cover;  /* garante que a foto se encaixe bem */
+  animation: fall linear forwards;
+}
+
 .botao {
     border-radius: 9px;
     position: relative;
@@ -196,7 +206,7 @@ top: -40px;
   }
 
   /* Confete e bolinhas menores */
-  .confetti, .bolinha {
+  .confetti, .bolinha, .gatinho {
     width: 20px;
     height: 20px;
   }

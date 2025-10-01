@@ -36,3 +36,16 @@ function showCurintia() {
     setTimeout(() => curintia.remove(), 6000);
   }
 }
+
+function showGatinho() {
+  for (let i = 0; i < 20; i++) {
+    let gatinho = document.createElement("img");
+    gatinho.src = "gatinhocoitado.png";
+    gatinho.className = "gatinho";
+    gatinho.style.left = Math.random() * 100 + "vw";
+    gatinho.style.animationDuration = (Math.random() * 3 + 3) + "s";
+    document.body.appendChild(gatinho);
+
+    setTimeout(() => gatinho.remove(), 6000);
+  }
+}
