@@ -104,8 +104,8 @@ top: -40px;
   top: -50px;
   width: 30px;
   height: 30px;
-  border-radius: 50%; /* deixa redondinha */
-  object-fit: cover;  /* garante que a foto se encaixe bem */
+  border-radius: 50%; 
+  object-fit: cover;  
   animation: fall linear forwards;
 }
 
@@ -127,7 +127,7 @@ top: -40px;
     color: white;
     border-color: transparent;
     padding: 4px;
-    width: 225px;
+    width: 250px;
     font-size: 16px;
 }
 
@@ -136,5 +136,71 @@ top: -40px;
     transform: translateY(100vh) rotate(720deg);
   }
 }
+
+/* ===== Estilos Mobile ===== */
+@media screen and (max-width: 480px) {
+  body {
+    padding: 5px;
+  }
+
+  .container {
+    padding: 15px;
+    border-radius: 15px;
+    max-width: 95%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .p-bolinho {
+    font-size: 1rem;
+  }
+
+  /* Bolo */
+  .cake {
+    width: 100px;
+    height: 90px;
+  }
+
+  .layer-topo {
+    width: 100px;
+    height: 9px;
+    top: 7px;
+  }
+
+  .layer.top,
+  .layer.middle,
+  .layer.bottom {
+    width: 100px;
+    height: 25px;
+  }
+
+  /* Velinhas */
+  .candles {
+    gap: 5px;
+  }
+
+  .candle {
+    font-size: 24px;
+    padding: 4px 6px;
+  }
+
+  /* Botão */
+  .botao {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+    position: relative;
+    top: -3px;
+  }
+
+  /* Confete e bolinhas menores */
+  .confetti, .bolinha {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+
 
 
